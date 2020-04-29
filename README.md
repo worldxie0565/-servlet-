@@ -1,6 +1,7 @@
 ### 用户信息的增删改查
 1. 应用原生servlet、filter、jsp（el，jstl）,数据库mysql，连接池druid，Spring的Jdbctemplate数据增删改查，登录界面用到验证码工具类
 2. 数据库创建表
+	```
 	SET NAMES utf8mb4;
 	SET FOREIGN_KEY_CHECKS = 0;
 
@@ -33,3 +34,4 @@
 	END WHILE;
 
 	END
+	```
